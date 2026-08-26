@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaBank | Intelligent Banking FAQ Assistant</title>
+    
+    <!-- Website Icon / Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="shortcut icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome & Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <!-- TOP NAVIGATION HEADER -->
+        <header class="app-header">
+            <div class="header-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-building-columns bi bi-bank"></i>
+                    </div>
+                    <div class="logo-pulse"></div>
+                </div>
+                <div class="brand-text">
+                    <h1>NovaBank <span class="badge-ai">AI</span></h1>
+                    <p class="brand-subtitle">Smart Banking FAQ Assistant</p>
+                </div>
+            </div>
+
+            <div class="header-status">
+                <span class="status-indicator"></span>
+                <span class="status-text">170+ FAQs Indexed • NLP Ready</span>
+            </div>
+
+            <nav class="nav-tabs">
+                <button class="nav-tab active" data-view="chat-view">
+                    <i class="fa-solid fa-comments bi bi-chat-left-text-fill"></i>
+                    <span>Chat Console</span>
+                </button>
+                <button class="nav-tab" data-view="kb-view">
+                    <i class="fa-solid fa-book-open bi bi-journal-bookmark-fill"></i>
+                    <span>Knowledge Base</span>
+                </button>
+                <button class="nav-tab" data-view="metrics-view">
+                    <i class="fa-solid fa-chart-pie bi bi-pie-chart-fill"></i>
+                    <span>Engine Metrics</span>
+                </button>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Light/Dark Theme">
+                    <div class="toggle-track">
+                        <span class="toggle-icon moon-icon"><i class="fa-solid fa-moon bi bi-moon-stars-fill"></i></span>
+                        <span class="toggle-icon sun-icon"><i class="fa-solid fa-sun bi bi-sun-fill"></i></span>
+                        <div class="toggle-thumb"></div>
+                    </div>
+                </button>
+            </div>
+        </header>
+
+        <!-- MAIN VIEW CONTAINER -->
+        <main class="main-content">
+            
+            <!-- VIEW 1: CHAT CONSOLE -->
+            <section id="chat-view" class="view-panel active">
+                <div class="chat-wrapper">
+                    <!-- CHAT FEED -->
+                    <div class="chat-feed" id="chat-feed">
+                        <!-- Welcome Hero -->
+                        <div class="welcome-card glass-panel">
+                            <div class="welcome-avatar">
+                                <i class="fa-solid fa-robot bi bi-robot"></i>
+                            </div>
+                            <h2>Welcome to NovaBank AI Support</h2>
+                            <p>Ask any banking-related question regarding account opening, UPI, credit/debit cards, transfers, loans, or security!</p>
+                            
+                            <div class="suggestion-chips-container">
+                                <span class="chips-title"><i class="fa-solid fa-bolt bi bi-lightning-charge-fill"></i> Popular Questions:</span>
+                                <div class="suggestion-chips">
+                                    <button class="chip-btn" data-question="How do I reset my password?">
+                                        <i class="fa-solid fa-key bi bi-key-fill"></i> How do I reset my password?
+                                    </button>
+                                    <button class="chip-btn" data-question="What documents are required to open an account?">
+                                        <i class="fa-solid fa-file-invoice bi bi-file-earmark-text"></i> What documents are required for an account?
+                                    </button>
+                                    <button class="chip-btn" data-question="Why did my UPI payment fail?">
+                                        <i class="fa-solid fa-qrcode bi bi-qr-code-scan"></i> Why did my UPI payment fail?
+                                    </button>
+                                    <button class="chip-btn" data-question="How do I apply for a credit card?">
+                                        <i class="fa-solid fa-credit-card bi bi-credit-card-fill"></i> How to apply for a credit card?
+                                    </button>
+                                    <button class="chip-btn" data-question="How do I report an unauthorized transaction?">
+                                        <i class="fa-solid fa-shield-halved bi bi-shield-check"></i> Report unauthorized transaction
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TYPING INDICATOR -->
+                    <div class="typing-indicator-container hidden" id="typing-indicator">
+                        <div class="assistant-avatar">
+                            <i class="fa-solid fa-robot bi bi-robot"></i>
+                        </div>
+                        <div class="typing-dots glass-panel">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <!-- CHAT INPUT DOCK -->
+                    <div class="chat-input-dock glass-panel">
+                        <!-- Quick Category Pills above input -->
+                        <div class="quick-category-bar" id="quick-category-bar">
+                            <!-- Populated dynamically -->
+                        </div>
+
+                        <form id="chat-form" class="input-form">
+                            <div class="input-container">
+                                <textarea 
+                                    id="user-input" 
+                                    placeholder="Ask a question (e.g. How to block lost debit card, check balance, or get statement)..." 
+                                    rows="1"
+                                    required
+                                ></textarea>
+                            </div>
+                            
+                            <button type="submit" id="send-btn" class="send-btn" title="Send Question">
+                                <span>Send</span>
+                                <i class="fa-solid fa-paper-plane bi bi-send-fill"></i>
+                            </button>
+                        </form>
+
+                        <div class="input-footer">
+                            <span>Powered by TF-IDF & Cosine Similarity NLP Engine</span>
+                            <span id="char-counter">0 / 250</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: KNOWLEDGE BASE EXPLORER -->
+            <section id="kb-view" class="view-panel">
+                <div class="kb-container">
+                    <!-- KB Sidebar with categories -->
+                    <aside class="kb-sidebar glass-panel">
+                        <h3><i class="fa-solid fa-layer-group bi bi-layers-fill"></i> Categories</h3>
+                        <div class="category-list" id="kb-category-list">
+                            <button class="cat-item active" data-category="all">
+                                <span>All Topics</span>
+                                <span class="cat-count" id="count-all">0</span>
+                            </button>
+                            <!-- Dynamic category items -->
+                        </div>
+                    </aside>
+
+                    <!-- KB Main Content -->
+                    <div class="kb-main">
+                        <div class="kb-header glass-panel">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass bi bi-search search-icon"></i>
+                                <input type="text" id="kb-search-input" placeholder="Search across 170+ banking FAQs...">
+                                <button id="kb-search-clear" class="icon-btn hidden"><i class="fa-solid fa-xmark bi bi-x-lg"></i></button>
+                            </div>
+                            <div class="kb-results-meta">
+                                Showing <span id="kb-results-count">0</span> FAQs
+                            </div>
+                        </div>
+
+                        <div class="kb-accordion-list" id="kb-accordion-list">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: ENGINE METRICS & SPECS -->
+            <section id="metrics-view" class="view-panel">
+                <div class="metrics-container">
+                    <div class="metrics-hero glass-panel">
+                        <h2><i class="fa-solid fa-brain bi bi-cpu-fill"></i> Banking NLP FAQ Engine Specs</h2>
+                        <p>Under-the-hood architecture using Scikit-Learn TF-IDF vectorization, preprocessed NLTK text pipeline, and Cosine Similarity thresholding.</p>
+                    </div>
+
+                    <div class="metrics-grid">
+                        <div class="metric-card glass-panel">
+                            <div class="metric-icon"><i class="fa-solid fa-database bi bi-database-fill"></i></div>
+                            <div class="metric-data">
+                                <span class="metric-value" id="stat-total-faqs">--</span>
+                                <span class="metric-label">Total Indexed FAQs</span>
+                            </div>
+                        </div>
+
+                        <div class="metric-card glass-panel">
+                            <div class="metric-icon"><i class="fa-solid fa-folder-tree bi bi-diagram-3-fill"></i></div>
+                            <div class="metric-data">
+                                <span class="metric-value" id="stat-total-cats">--</span>
+                                <span class="metric-label">Banking Categories</span>
+                            </div>
+                        </div>
+
+                        <div class="metric-card glass-panel">
+                            <div class="metric-icon"><i class="fa-solid fa-gauge-high bi bi-speedometer2"></i></div>
+                            <div class="metric-data">
+                                <span class="metric-value" id="stat-threshold">40%</span>
+                                <span class="metric-label">Min Similarity Cutoff</span>
+                            </div>
+                        </div>
+
+                        <div class="metric-card glass-panel">
+                            <div class="metric-icon"><i class="fa-solid fa-spell-check bi bi-fonts"></i></div>
+                            <div class="metric-data">
+                                <span class="metric-value" id="stat-vocab-size">--</span>
+                                <span class="metric-label">TF-IDF Vocabulary Words</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pipeline-section glass-panel">
+                        <h3><i class="fa-solid fa-gears bi bi-gear-wide-connected"></i> Query Processing Pipeline</h3>
+                        <div class="pipeline-steps">
+                            <div class="step-card">
+                                <div class="step-num">1</div>
+                                <h4>Text Preprocessing</h4>
+                                <p>Tokenization, lowercasing, punctuation stripping, & NLTK stop-words filtering.</p>
+                            </div>
+                            <div class="step-arrow"><i class="fa-solid fa-chevron-right bi bi-chevron-right"></i></div>
+                            <div class="step-card">
+                                <div class="step-num">2</div>
+                                <h4>TF-IDF Vectorization</h4>
+                                <p>Converting preprocessed words into term-frequency inverse-document vectors.</p>
+                            </div>
+                            <div class="step-arrow"><i class="fa-solid fa-chevron-right bi bi-chevron-right"></i></div>
+                            <div class="step-card">
+                                <div class="step-num">3</div>
+                                <h4>Cosine Similarity</h4>
+                                <p>Computing dot product of user vector vs 170+ FAQ candidate vectors.</p>
+                            </div>
+                            <div class="step-arrow"><i class="fa-solid fa-chevron-right bi bi-chevron-right"></i></div>
+                            <div class="step-card">
+                                <div class="step-num">4</div>
+                                <h4>Threshold Verification</h4>
+                                <p>Evaluating if top score ≥ 0.40 cutoff threshold to dispatch structured answer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

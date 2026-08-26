@@ -1,0 +1,867 @@
+[
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "How do I open a bank account?",
+        "answer": "Select the account-opening option and complete the application with the required information and documents."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "What documents are required to open an account?",
+        "answer": "Valid identity, address, and other documents required by the bank are generally needed."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "Who is eligible to open a bank account?",
+        "answer": "Eligibility depends on the account type and the bank’s applicable requirements."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "Can I open a bank account online?",
+        "answer": "If online account opening is supported, you can complete the application through the bank’s official digital channel."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "What is KYC?",
+        "answer": "KYC means Know Your Customer, a process used to verify a customer’s identity and required information."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "How do I complete KYC?",
+        "answer": "Submit the identity and other documents requested by the bank through an approved verification process."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "What is the minimum balance requirement?",
+        "answer": "The minimum balance depends on the account type and the bank’s terms."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "Can I open a joint account?",
+        "answer": "Joint accounts may be available depending on the bank and account type."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "Can a minor open a bank account?",
+        "answer": "Minor accounts may be available subject to the bank’s eligibility and guardian requirements."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "How do I add a nominee?",
+        "answer": "Use the nominee section in your account services or contact the bank to register a nominee."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "How do I change my nominee?",
+        "answer": "Submit a nominee update request through the bank’s approved channel."
+    },
+    {
+        "category": "Account Opening & Eligibility",
+        "question": "How do I check my account opening status?",
+        "answer": "Use the application-status facility or contact customer support with your application details."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "How do I reset my password?",
+        "answer": "Select Forgot Password on the login page and follow the password-reset instructions."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "I forgot my password. What should I do?",
+        "answer": "Use the Forgot Password option and complete the required verification steps."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "How do I change my password?",
+        "answer": "Open Security or Account Settings and choose the password-change option."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "I forgot my username. What should I do?",
+        "answer": "Use the username-recovery option if available or contact customer support for assistance."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "Why is my account locked?",
+        "answer": "An account can be locked after security checks or repeated unsuccessful login attempts. Contact support if needed."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "How do I unlock my account?",
+        "answer": "Complete the bank’s account-unlock or identity-verification process, or contact support."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "What is an OTP?",
+        "answer": "OTP means One-Time Password, a temporary verification code used to authenticate certain actions."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "Why did I not receive an OTP?",
+        "answer": "Check your registered contact details, network connection, and message inbox, then request another OTP if allowed."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "What should I do if my OTP expired?",
+        "answer": "Request a new OTP and use it within the validity period."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "Can I change my registered mobile number?",
+        "answer": "Yes, if supported, update it through Profile or Account Settings after completing verification."
+    },
+    {
+        "category": "Login, Password & Authentication",
+        "question": "What is two-factor authentication?",
+        "answer": "It is an additional security layer that requires a second verification step beyond a password."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I change my name?",
+        "answer": "Submit a personal-information update request with any documents required by the bank."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I change my address?",
+        "answer": "Update your address through the approved profile or KYC-update process."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I change my mobile number?",
+        "answer": "Use the approved mobile-number update process and complete identity verification."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I change my email address?",
+        "answer": "Open Profile or Account Settings and update the registered email address if permitted."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I update my KYC information?",
+        "answer": "Use the bank’s KYC-update facility and submit the requested information or documents."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I update my PAN details?",
+        "answer": "Submit a profile or KYC update request with the required PAN information."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I correct my date of birth?",
+        "answer": "Contact the bank or submit a profile-correction request with supporting documents."
+    },
+    {
+        "category": "Profile, KYC & Personal Details",
+        "question": "How do I update communication preferences?",
+        "answer": "Open your profile or notification settings and change the available communication preferences."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "How do I check my account balance?",
+        "answer": "Log in to your account and open the Balance or Account Summary section."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "What is available balance?",
+        "answer": "Available balance is the amount currently available for eligible transactions after applicable holds or restrictions."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "How do I view transaction history?",
+        "answer": "Open the Transactions or Account Activity section to view recent transactions."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "How do I download a bank statement?",
+        "answer": "Open Statements, select the required account and period, and download the available statement."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "Can I get a statement for a specific date range?",
+        "answer": "Yes, if the statement service supports date-range selection, choose the required period."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "How do I get a monthly statement?",
+        "answer": "Open the statement section and select the required month."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "How do I get an account summary?",
+        "answer": "Open Account Summary to view available account information and balances."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "What is a transaction reference number?",
+        "answer": "It is a unique or identifying reference associated with a transaction and can help support teams locate it."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "Why is a transaction showing as pending?",
+        "answer": "The transaction may still be processing. Check its status later or contact support if it remains pending."
+    },
+    {
+        "category": "Balance, Transactions & Statements",
+        "question": "Why is a transaction reversed?",
+        "answer": "A transaction can be reversed when processing is unsuccessful or the transaction is subsequently returned."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I transfer money?",
+        "answer": "Open the transfer service, enter the recipient details and amount, review the information, and confirm."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I transfer money to another bank?",
+        "answer": "Choose the appropriate bank-transfer option, enter the recipient details and amount, and authorize the transfer."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I add a beneficiary?",
+        "answer": "Open Beneficiaries, choose Add Beneficiary, and enter the required recipient information."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I remove a beneficiary?",
+        "answer": "Open the Beneficiaries section, select the beneficiary, and use the available removal option."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I edit beneficiary details?",
+        "answer": "Select the beneficiary and use the edit option if changes are permitted."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Why did my transfer fail?",
+        "answer": "Transfers can fail because of incorrect details, insufficient funds, limits, technical problems, or security checks."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Why is my transfer pending?",
+        "answer": "The transfer may still be processing. Check the transaction status or contact support if it remains pending."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Why was money deducted but my transfer failed?",
+        "answer": "Check the transaction status and allow the bank’s reversal or reconciliation process to complete; contact support if the funds are not restored."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Can I cancel a money transfer?",
+        "answer": "Cancellation depends on the transfer status and service. Contact support immediately if cancellation is required."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "How do I check transfer status?",
+        "answer": "Open transaction history and select the relevant transfer to view its status."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "What is a bank transfer?",
+        "answer": "A bank transfer is an electronic movement of money between bank accounts."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Why has the recipient not received my transfer?",
+        "answer": "Check the transfer status and recipient details. If it is completed but not received, contact support with the transaction reference."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Are there transfer limits?",
+        "answer": "Transfer limits depend on the account, channel, transaction type, and applicable bank rules."
+    },
+    {
+        "category": "Money Transfer & Beneficiaries",
+        "question": "Are there transfer charges?",
+        "answer": "Charges depend on the transfer type, channel, account, and bank’s current fee schedule."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "How do I create a UPI ID?",
+        "answer": "Register for UPI through a supported banking or payment application and follow the setup instructions."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "How do I set a UPI PIN?",
+        "answer": "Use the UPI PIN setup option and complete the required account and verification steps."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "How do I change my UPI PIN?",
+        "answer": "Open the UPI settings and choose Change UPI PIN, then complete the verification process."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "I forgot my UPI PIN. What should I do?",
+        "answer": "Use the Forgot or Reset UPI PIN option and complete the required verification."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "Why did my UPI payment fail?",
+        "answer": "A UPI payment can fail because of insufficient funds, incorrect details, limits, connectivity, or technical issues."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "Why is my UPI payment pending?",
+        "answer": "The payment may still be processing. Check the transaction status before attempting another payment."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "My UPI payment succeeded but the recipient did not receive it. What should I do?",
+        "answer": "Check the transaction status and reference number, then contact support if the recipient still has not received the funds."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "Can I get a refund for a UPI payment?",
+        "answer": "Refunds depend on the transaction type and merchant or bank process. Check the transaction status and contact the appropriate support channel."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "How do I pay using a QR code?",
+        "answer": "Open the supported payment app, scan the merchant QR code, verify the details, and authorize the payment."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "What is a UPI collect request?",
+        "answer": "It is a payment request sent to a UPI user who can review and authorize the request."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "Can I link my bank account to UPI?",
+        "answer": "Supported bank accounts can generally be linked through a compatible UPI application after verification."
+    },
+    {
+        "category": "UPI & Instant Payments",
+        "question": "What is the UPI transaction limit?",
+        "answer": "The limit depends on the bank, UPI service, account, transaction type, and applicable rules."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I get a debit card?",
+        "answer": "Request a debit card through the bank’s card service or approved digital channel."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I activate my debit card?",
+        "answer": "Use the card-activation option provided by the bank and complete the required verification."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I block my debit card?",
+        "answer": "Use the card-management service to block the card or contact the bank immediately."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "I lost my debit card. What should I do?",
+        "answer": "Block the card immediately and contact the bank to report the loss and request further assistance."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "My debit card was stolen. What should I do?",
+        "answer": "Block the card immediately and report the theft through the bank’s official support channel."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I replace an expired debit card?",
+        "answer": "Follow the bank’s card-renewal or replacement process."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I request a replacement card?",
+        "answer": "Use Card Management or contact support to request a replacement if eligible."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "How do I change my debit card PIN?",
+        "answer": "Use a supported PIN-management facility and complete the required verification."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "I forgot my debit card PIN. What should I do?",
+        "answer": "Use the bank’s PIN-reset or regeneration process."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "Why was my debit card transaction declined?",
+        "answer": "A card transaction can be declined because of insufficient funds, limits, security restrictions, incorrect details, or technical issues."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "Why is my debit card not working?",
+        "answer": "Check whether the card is active, valid, and not blocked. Contact support if the problem continues."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "Can I use my debit card internationally?",
+        "answer": "International usage depends on the card settings, account eligibility, and bank policy."
+    },
+    {
+        "category": "Debit Cards",
+        "question": "What is contactless payment?",
+        "answer": "Contactless payment allows eligible cards to make supported payments by tapping the card or device at a compatible terminal."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "How do I find a nearby ATM?",
+        "answer": "Use the bank’s official ATM locator or branch locator if available."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "How do I withdraw cash from an ATM?",
+        "answer": "Insert or tap your eligible card, authenticate with the required PIN or method, select withdrawal, and follow the ATM instructions."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "Why did my ATM cash withdrawal fail?",
+        "answer": "A withdrawal can fail because of insufficient funds, limits, card restrictions, ATM issues, or network problems."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "Cash was deducted but the ATM did not dispense cash. What should I do?",
+        "answer": "Keep the transaction details and contact the bank promptly so the transaction can be investigated and reconciled."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "What should I do if an ATM keeps my card?",
+        "answer": "Contact the bank immediately and follow its card-recovery or replacement procedure."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "What is the ATM withdrawal limit?",
+        "answer": "The withdrawal limit depends on the card, account, ATM, and bank policy."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "Are ATM withdrawals charged?",
+        "answer": "Charges depend on the ATM used, account type, transaction type, and applicable fee schedule."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "Can I deposit cash at an ATM?",
+        "answer": "Cash deposits may be available at supported cash-deposit ATMs and depend on the bank and account."
+    },
+    {
+        "category": "ATM & Cash Services",
+        "question": "How do I change my ATM PIN?",
+        "answer": "Use a supported ATM or card-management service and complete the required verification."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "How do I apply for a credit card?",
+        "answer": "Apply through the bank’s official credit-card application channel and complete the eligibility and verification process."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "How do I activate my credit card?",
+        "answer": "Use the bank’s card-activation process and complete the required verification."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What is my credit card limit?",
+        "answer": "Your credit limit is the maximum amount available for eligible credit-card transactions and is determined by the issuer."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "How can I request a credit limit increase?",
+        "answer": "Submit a limit-increase request through the bank’s approved channel if eligible."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "How do I pay my credit card bill?",
+        "answer": "Use an available payment method such as bank transfer, online payment, or the bank’s card-payment service."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What is the minimum credit card payment?",
+        "answer": "It is the minimum amount shown on the statement that must be paid by the due date under the card terms."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What is outstanding credit card amount?",
+        "answer": "It is the amount currently owed on the credit card, subject to the statement and account terms."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What is a credit card billing cycle?",
+        "answer": "It is the period during which eligible card transactions are accumulated for a statement."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "How do I download my credit card statement?",
+        "answer": "Open the credit-card statement section and select the required statement period."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What should I do if my credit card is lost?",
+        "answer": "Block the card immediately and contact the card issuer for assistance and replacement."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "What are credit card reward points?",
+        "answer": "They are rewards earned under the card’s applicable reward program for eligible transactions."
+    },
+    {
+        "category": "Credit Cards",
+        "question": "Why was my credit card payment declined?",
+        "answer": "A payment may be declined because of insufficient available credit, incorrect details, security checks, or technical issues."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "How do I make an online payment?",
+        "answer": "Choose the supported payment method, enter the required details, review the amount and recipient, and authorize the payment."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "Why was my online payment declined?",
+        "answer": "A payment can be declined because of insufficient funds, incorrect details, limits, security checks, or technical issues."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "Why is my payment pending?",
+        "answer": "The payment may still be processing. Check its status before attempting another payment."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "Why was my payment reversed?",
+        "answer": "A payment may be reversed when processing is unsuccessful or funds are returned after a failed or cancelled transaction."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "I was charged twice for one payment. What should I do?",
+        "answer": "Check the transaction history and contact support if both charges were completed."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "How do I request a payment refund?",
+        "answer": "Contact the merchant or relevant payment support channel and provide the transaction details."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "How long does a refund take?",
+        "answer": "Refund timing depends on the merchant, payment method, bank, and processing network."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "What should I do if my refund has not arrived?",
+        "answer": "Check the refund status and contact the merchant or bank with the refund or transaction reference."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "How do I get a payment receipt?",
+        "answer": "Open transaction history and select the completed payment to view or download available receipt information."
+    },
+    {
+        "category": "Payments, Refunds & Merchants",
+        "question": "What is a merchant transaction?",
+        "answer": "It is a payment made to a business or service provider using a supported payment method."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I apply for a loan?",
+        "answer": "Open the Loans section or official loan application channel and complete the application process."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "What types of loans are available?",
+        "answer": "Depending on the bank, products may include personal, home, vehicle, education, and other loans."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I check loan eligibility?",
+        "answer": "Use the bank’s eligibility process and provide the requested financial and personal information."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "What documents are required for a loan?",
+        "answer": "Requirements vary by loan type and may include identity, income, employment, address, and financial documents."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I check my loan application status?",
+        "answer": "Use the loan-status facility or contact support with your application reference."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "Why was my loan application rejected?",
+        "answer": "A loan application may be declined based on eligibility, verification, credit assessment, income, documentation, or other lending criteria."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "What is loan interest rate?",
+        "answer": "It is the rate used to calculate interest on the outstanding loan amount according to the loan terms."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "What is EMI?",
+        "answer": "EMI means Equated Monthly Instalment, a scheduled payment toward a loan according to its repayment terms."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I pay my EMI?",
+        "answer": "Use the bank’s supported repayment method and follow the loan payment instructions."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "What happens if I miss an EMI?",
+        "answer": "A missed payment may result in charges or other consequences under the loan agreement."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "Can I prepay my loan?",
+        "answer": "Prepayment may be available depending on the loan product and its terms."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I close my loan?",
+        "answer": "Complete the required outstanding repayment and follow the bank’s loan-closure process."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How do I get my loan statement?",
+        "answer": "Open the loan account section and download or request the available loan statement."
+    },
+    {
+        "category": "Loans & EMI",
+        "question": "How can I check my outstanding loan balance?",
+        "answer": "Open the Loans section to view the outstanding balance shown for the loan account."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "How do I open a fixed deposit?",
+        "answer": "Use the bank’s fixed-deposit service and select the amount, tenure, and applicable deposit option."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "What is fixed deposit interest?",
+        "answer": "It is the interest earned on a fixed deposit according to the applicable rate and tenure."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "When does my fixed deposit mature?",
+        "answer": "The maturity date is specified when the deposit is opened and can be viewed in the deposit details."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "Can I renew my fixed deposit?",
+        "answer": "Renewal may be available according to the deposit terms and instructions provided by the bank."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "Can I withdraw a fixed deposit before maturity?",
+        "answer": "Premature withdrawal may be available subject to the deposit terms and applicable charges or rate adjustments."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "How do I get my fixed deposit statement?",
+        "answer": "Open the deposit section and download or request the available statement."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "What is a recurring deposit?",
+        "answer": "A recurring deposit is a savings product in which a customer deposits a specified amount at regular intervals for a chosen tenure."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "How do I pay my recurring deposit instalment?",
+        "answer": "Use the supported account or payment method to make the scheduled recurring-deposit contribution."
+    },
+    {
+        "category": "Fixed Deposits & Savings",
+        "question": "What happens when my recurring deposit matures?",
+        "answer": "The maturity amount is paid or processed according to the product terms."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "How do I make an international transfer?",
+        "answer": "Use the bank’s supported international-transfer service and provide the required recipient and transfer information."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "What is a foreign exchange rate?",
+        "answer": "It is the rate used to convert one currency into another for an eligible transaction."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "How is currency conversion calculated?",
+        "answer": "The converted amount depends on the applicable exchange rate and any disclosed fees or charges."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "Can I use my debit card abroad?",
+        "answer": "International card usage depends on card settings, eligibility, merchant acceptance, and bank policy."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "Are international transactions charged?",
+        "answer": "Fees depend on the transaction type, currency, card or account, and the bank’s current pricing."
+    },
+    {
+        "category": "International Banking & Forex",
+        "question": "Why was my international transaction declined?",
+        "answer": "It may be declined because of security controls, limits, card settings, insufficient funds, or other restrictions."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "How do I report an unauthorized transaction?",
+        "answer": "Report it immediately through the bank’s official fraud or customer-support channel and provide the transaction details."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "What should I do if I think my account was hacked?",
+        "answer": "Secure the account by changing credentials, blocking affected services if needed, and contacting the bank immediately."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "What is phishing?",
+        "answer": "Phishing is a fraud technique that attempts to trick people into revealing sensitive information through deceptive messages or websites."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "What should I do about a suspicious banking email?",
+        "answer": "Do not click suspicious links or provide credentials; verify the message through an official bank channel."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "What should I do about a suspicious SMS?",
+        "answer": "Do not share OTPs or sensitive information and verify the message through the bank’s official channel."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "Should I share my OTP?",
+        "answer": "No. Never share an OTP with another person or untrusted service."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "Should I share my PIN?",
+        "answer": "No. Keep your PIN confidential and never disclose it to anyone."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "How can I keep my banking account secure?",
+        "answer": "Use strong credentials, enable available security controls, avoid suspicious links, and monitor account activity regularly."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "How do I report a fraudulent UPI transaction?",
+        "answer": "Report it immediately through the official payment or bank support channel and provide the transaction reference."
+    },
+    {
+        "category": "Security, Fraud & Privacy",
+        "question": "How do I block my account during suspected fraud?",
+        "answer": "Contact the bank’s official fraud or emergency support channel and follow the account-security instructions."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I contact customer support?",
+        "answer": "Use the bank’s official phone, chat, email, or in-app support channel."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I raise a complaint?",
+        "answer": "Submit a complaint through the bank’s official complaint or support channel and retain the complaint reference."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I check my complaint status?",
+        "answer": "Use the complaint-status facility or contact support with your complaint reference."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I escalate a complaint?",
+        "answer": "If the issue is unresolved, use the bank’s official escalation or grievance process."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I find a bank branch?",
+        "answer": "Use the bank’s official branch locator."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I find branch working hours?",
+        "answer": "Check the official branch information for the applicable branch and current working hours."
+    },
+    {
+        "category": "Customer Support, Complaints & Branches",
+        "question": "How do I provide feedback to the bank?",
+        "answer": "Use the bank’s official feedback or customer-support channel."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "How do I close my bank account?",
+        "answer": "Submit an account-closure request through the bank’s approved process after completing pending transactions and requirements."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "What documents are required to close an account?",
+        "answer": "Requirements depend on the bank and account type; follow the account-closure instructions provided by the bank."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "What happens to my remaining account balance after closure?",
+        "answer": "The remaining eligible balance is handled according to the bank’s account-closure procedure."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "What is a dormant account?",
+        "answer": "A dormant account is an account classified as inactive according to the bank’s applicable rules."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "How do I reactivate a dormant account?",
+        "answer": "Complete the bank’s reactivation and identity-verification process."
+    },
+    {
+        "category": "Account Closure & Dormancy",
+        "question": "Can I close a joint account?",
+        "answer": "Joint-account closure depends on the account mandate and bank requirements."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "What are bank service charges?",
+        "answer": "Service charges are fees that may apply to specific banking products or transactions according to the bank’s fee schedule."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "Where can I find the bank fee schedule?",
+        "answer": "Check the bank’s official fee or charges information for current applicable fees."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "What are transaction limits?",
+        "answer": "Transaction limits are maximum or minimum amounts permitted for a product or channel under applicable rules."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "Why was I charged a bank fee?",
+        "answer": "A fee may have been applied according to the product terms, transaction type, service used, or applicable fee schedule."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "How do I dispute an incorrect bank charge?",
+        "answer": "Contact customer support or raise a complaint with the transaction and charge details."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "What is interest on a savings account?",
+        "answer": "It is the amount credited according to the account’s applicable interest rate and terms."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "How often is savings account interest credited?",
+        "answer": "The crediting frequency depends on the account product and bank terms."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "How do I update my bank notification settings?",
+        "answer": "Open notification or communication settings and adjust the available options."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "How do I enable transaction alerts?",
+        "answer": "Enable available SMS, email, push, or app alerts through the bank’s notification settings."
+    },
+    {
+        "category": "Charges, Limits & General Banking",
+        "question": "How do I stop receiving certain notifications?",
+        "answer": "Open communication settings and disable options that the bank allows you to change."
+    }
+]

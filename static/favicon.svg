@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Exact NovaBank Brand Gradient: #38bdf8 (Sky Blue) to #818cf8 (Indigo/Purple) -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    
+    <!-- AI Sparkle Star Accent -->
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#38bdf8" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Rounded Square Container matching .brand-logo on website -->
+  <rect x="24" y="24" width="464" height="464" rx="128" fill="url(#brandGrad)" filter="url(#logoGlow)" />
+
+  <!-- Crisp White Bank Building (Matching website header logo) -->
+  <!-- Roof / Triangular Pediment -->
+  <path d="M 256 100 L 416 182 L 96 182 Z" fill="#ffffff" />
+
+  <!-- Architrave / Top Beam -->
+  <rect x="104" y="192" width="304" height="24" rx="5" fill="#ffffff" />
+
+  <!-- Columns (4 Pillars) -->
+  <rect x="124" y="226" width="40" height="134" rx="6" fill="#ffffff" />
+  <rect x="194" y="226" width="40" height="134" rx="6" fill="#ffffff" />
+  <rect x="278" y="226" width="40" height="134" rx="6" fill="#ffffff" />
+  <rect x="348" y="226" width="40" height="134" rx="6" fill="#ffffff" />
+
+  <!-- Base Steps -->
+  <rect x="96" y="368" width="320" height="26" rx="6" fill="#ffffff" />
+  <rect x="76" y="402" width="360" height="22" rx="5" fill="#ffffff" />
+
+  <!-- AI Sparkle Star (Top Right Corner) -->
+  <path d="M 395 75 Q 395 105 425 105 Q 395 105 395 135 Q 395 105 365 105 Q 395 105 395 75 Z" fill="url(#starGrad)" />
+</svg>
