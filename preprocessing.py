@@ -1,10 +1,24 @@
 import re
 import nltk
+
+# Automatically download required NLTK packages if missing (for cloud deployment)
+for resource in ["stopwords", "punkt", "punkt_tab"]:
+    try:
+        nltk.data.find(resource)
+    except LookupError:
+        try:
+            nltk.download(resource, quiet=True)
+        except Exception:
+            pass
+
 from nltk.corpus import stopwords
 
-
-# Load English stop words
-stop_words = set(stopwords.words("english"))
+try:
+    stop_words = set(stopwords.words("english"))
+except Exception:
+    nltk.download("stopwords", quiet=True)
+    from nltk.corpus import stopwords
+    stop_words = set(stopwords.words("english"))
 
 
 def preprocess(text):
