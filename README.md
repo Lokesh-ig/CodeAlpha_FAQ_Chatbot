@@ -1,16 +1,19 @@
 # 🏦 NovaBank | Intelligent Banking FAQ Chatbot & Knowledge Base
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://codealpha-faq-chatbot-xf7i.onrender.com)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-TF--IDF-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP_Pipeline-150458?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+> 🚀 **Live Web Application**: **[https://codealpha-faq-chatbot-xf7i.onrender.com](https://codealpha-faq-chatbot-xf7i.onrender.com)**
 
 An intelligent, full-stack Banking FAQ Assistant and Knowledge Base built with **Python Flask**, **Scikit-Learn (TF-IDF & Cosine Similarity)**, and a **Glassmorphic UI**.
 
 ---
 
 ## ✨ Features
+
 
 - 💬 **Interactive AI Chat Console**: Instant query answering using TF-IDF term frequency vectors and Cosine Similarity cutoff thresholding.
 - 📚 **173+ Indexed Banking FAQs**: Pre-indexed questions covering 17 banking categories (UPI, Credit Cards, Loans, Security & Fraud, ATM Services, etc.).
@@ -38,7 +41,7 @@ graph LR
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/CodeAlpha_FAQ_Chatbot.git
+git clone https://github.com/Lokesh-ig/CodeAlpha_FAQ_Chatbot.git
 cd CodeAlpha_FAQ_Chatbot
 ```
 
